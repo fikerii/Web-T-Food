@@ -1,0 +1,238 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans', sans-serif;
+    color: #FFFFFF;
+    background: #191A19;
+}
+
+.content {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: fantasy;
+    float: left;
+    color: #30E3CA;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #191A19;
+    z-index: 1;
+    border-bottom: 1px solid #30E3CA;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+ 
+a.tombol-order {
+    background: #30E3CA;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;  
+}
+
+a.tombol-order:hover {
+    background: #11999E;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+}
+
+.profile-section img {
+    margin-top: 20px;
+    width: 35%;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #11999E;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+p{
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-size: 45px;
+    font-weight: 800;
+    color: #30e3ca;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tombol-PLT {
+    background: #30E3CA;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol-PLT:hover {
+    background: #11999E;
+    text-decoration: none;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.team-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.member img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.member p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    color: #30E3CA;
+    text-align: center;
+}
+
+p.tulisan-tengah {
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.produk {
+    float: left;
+}
+
+.produk img {
+    width: 25%;
+    float: right;
+    margin-left: 50px;
+}
+
+.teks {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.teks .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #11999E;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.foto{
+    text-align: center;
+}
+
+.foto h3 {
+    margin-bottom: 60px;
+}
+
+.foto p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    color: #30E3CA;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto img{
+    width: 20%;
+}
+
+.dok1 img{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.dok2 img{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.dok3 img{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
